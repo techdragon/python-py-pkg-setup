@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/py_pkg_setup
+   */site-packages/py_pkg_setup
+
+[run]
+branch = true
+source =
+    py_pkg_setup
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
